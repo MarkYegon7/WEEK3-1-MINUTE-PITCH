@@ -1,0 +1,50 @@
+ <div class="navbar navbar-dark bg-primary" style="background-color: #45494b;" >
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <ul>
+                <a style="text-align: center; color: rgb(247, 242, 242);" class="navbar-brand" href="/pitches/new/"> Post a Pitch </a>
+            </ul>
+        </div>
+        <div class="navbar-nav">
+            <a style="text-align: center; color: rgb(244, 235, 235);" class="navbar-brand" href="/"> Home </a>
+
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- {% if current_user.is_authenticated %} 
+                 <li style="color:#f4ebeb">{{current_user.username}}</li>  -->
+                  
+                <li><a style="color: #f5eaea;" href="{{url_for('auth.logout')}}">Sign out</a></li>
+                <!-- {% else %}  -->
+                <li><a style="color: rgb(248, 239, 239);" href="{{url_for('auth.login')}}">Sign in</a></li>
+                <!-- {%endif%} -->
+            </ul>
+        </div>
+
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li style="color:rgb(233, 227, 227)"></li>
+                <li>
+                    <a style="color: rgb(244, 238, 238);" href="{{url_for('auth.logout')}}">log out</a>
+                </li>
+                <li>
+                    <a style="color: rgb(239, 230, 230);" href="{{url_for('auth.login')}}">login</a>
+                    
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+
+
