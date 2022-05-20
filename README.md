@@ -1,6 +1,6 @@
 # Project name
 
-Password-Locker
+1-minute_pitches
 
 # Project Author
 
@@ -8,7 +8,7 @@ Mark Yegon
 
 # Description
 
-This is application is used to store details of a user and allows them to generate secure passwords for their accounts user sets up account using: username and passoword user should be able to: create account delete account search account generate password
+This is application is used to make pitches wisely and use our time well.One is able to make comments on the pitches and vote for it.
 
 # Project setup instructions
 
@@ -22,15 +22,7 @@ Python 3.8
 
 # Behavior Driven Development
 
-Using short code provided.
 
-upon input cc, the out put prompt user to sign up by typing name and password.
-
-upon input acc, the out put prompt user to input the account name and password to store.
-
-upon input gp, the out put generates automatic password to user.
-
-upon input ex, the out put prompt user to exist/logout.
 
 # Contact details
 
