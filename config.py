@@ -17,7 +17,7 @@ class DevConfig(Config):
 
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql://tiyjvwwjszqgjb:d3bbe2d58bd0931ca625e93aea9f75d25240d282bc0cc606c5d8bab1d5d9649d@ec2-3-230-122-20.compute-1.amazonaws.com:5432/d3353t1ahfhs8j'
-    pass
+    
 
 class TestConfig(Config):
     pass
