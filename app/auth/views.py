@@ -7,7 +7,7 @@ from ..import db
 from flask_login import login_user,login_required,logout_user
 
 
-@auth.route('/login',methods=['GET','POST'])
+uth.route('/login',methods=['GET','POST'])
 def login():
     login_form = LoginForm()
     if login_form.validate_on_submit():
