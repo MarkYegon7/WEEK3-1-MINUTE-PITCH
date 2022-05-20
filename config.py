@@ -12,7 +12,7 @@ class Config:
     def init_app(app):
         pass
 
-
+class DevConfig(Config):
     DEBUG = True
 
 class ProdConfig(Config):
